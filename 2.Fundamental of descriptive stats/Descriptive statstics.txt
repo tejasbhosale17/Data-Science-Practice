@@ -1,0 +1,131 @@
+
+* The various type of data in descriptive statistcs - 
+* clasify the data in 2 main ways - <A> Types <B> Measurment Levels
+
+=============================================================================================================================================
+<A> types of data - Categorical data & Numerical data - 
+
+** CATEGORICAL DATA --
+   # categorical data describes categories & groups -
+	@ car brands - bmw, mercedes, audi - they show us different category
+   
+** NUMERICAL DATA --  Discrete Data & Continuous Data
+   # Discrete Data is count by finite manner e.g - no. of childern which is integer value from 0 to 10
+   # Other example is Students grade in the exam - Fail or Pass ( you may get score of 1000,1700 or 2000) main important is variable 
+     to define you can imagine each member in the dataset knowing the score from 1000 - 2400
+
+* continuous data is infinitive & impossible to count. e.g - A persons weight is 68kg & after few days if you gain weight then ur weight 
+  become 69kg & A person's new weight would be 69kg. If A person is keep on working or running you get sweating.so that means reduce 
+  your weight but the weights scale is keep on changeing. The process of lossing & gaining occurs all the time. 
+  your exact weight is contiunus variable
+
+* Discrete data is No. of children - you can easily count- linear reg is discrete in nature
+  Continuos data is weight of the person - log regressio is continuous in nature
+
+=============================================================================================================================================
+<B> Measurment levels - How to find the levels of measurment split 2 groups - Qulitive and Quantive
+
+    * Qualitative data - * Nominal and Ordinal Data - 
+                         Nominal values are type of category- bmw,audi 
+			 4 season-summer,winter,rain,spring - they are numbers can not put in any order
+     			
+			* ORDINAL DATA- If i ask you to rate your lunch from 1-5
+			  1>disgusting 2>unappetizing 3>neutral4>tasty5>delicious
+	
+                          what we did hear is assigned all words to numbers and the ordering is from negative to positive & data is qualitive ordinal
+    * Quantitative data - * Interval * Ratio. 
+			  * Interval & Ratio both are majored by number but main differece :- Ratio has a true 0 and interval has no 0 value
+			  * Interval variable example is Temperature (Cel/Far) & we can say 80 degr farenhite is less then 100 degr farenhite.
+			  * Ration example is Length 0 has some meaning in length
+===============================================================================================================================================
+<c> Visualization technique for categorial Variables - 
+
+* Representation of categorial variables - Frequency distribution tables,Bar charts,Pie charts,Pareto Diagrams
+
+* Frequency distribution table - It is Tabular format showing category name along with freaquency.In simple i would say that no. of car sold, 
+  this is one of the way to organise the data. using the same table we will construct the bar chart
+
+* Bar chart --- vertical - No. of units sold, horizonatal - it shows different category (we have more clarity about variables)
+
+* Pie chart -- same way we can represent the pie chart. additioanal you can get relative freaquency based on % & pie chart we can see the 
+  share of the total & this is the best for business example & market shares. check in the google about market share. Relative frequency 
+  is the percentage of the total frequency for each category. (RF= INDIVIDUAL FREQUENCY/TOTAL FREQUENCY)
+
+* Pareto diagram-- this is special type of bar chart.Categories are shown in descending order of frequency.(Frequencey is the nmber of occurance 
+  on each items)  let me order the frequency using bar chart & curve showing and this is pareto diagram by using cumulative frequency & % plot 
+  drawn as per right side vertical axis.(CF is the sum of RF) pareto diagrams combine the bar chart & pie chart. its easy to compare the data both 
+  category as well as total, by using this u can check the market share. 
+
+<D> Frequency distribution for Numeriacl Variables -
+
+* we will do main focus on numeric data only & as per the given table each number occurs 1 time, frquency = 1
+
+* when we deal with numeic variables then it more sense to group the data into intervals then find the coresponding freaquency
+
+* what is intervals & how to choose intervals( statisticians prefers 5-20 intervals, intervals depends on case to case . intervals depend 
+  on large amount of data
+
+* Each interval has width of 20 & lets try to construct the frequency distribution table, as per table you get the interval & frequency
+
+* we calculate the interval & frequency & no we can calculate the relative frequency and now we can plot using histogram. histogram is best way 
+  to plot the datapoints. (RF== TOTAL FREQ / FREQ)== 20/2) ///// Rf = ABSO FRE/FREQ
+
+*** HISTOGRAM --  in histogram x-axis is for interval width, y-axis is for frequency or relative frequ
+    difference between Bar chart & histogram ( bar chart - no interval) 
+
+* u may creat a histogram with unequal width( age group you may have different interval width) so how to take interval with becuase below 18 is not 
+  acceptable & over age of 60 is not applicable. thats why we come to conclusion as 18-25//25 -30//30-35/60+
+
+* final conclusion of histogram is always prefer of equal width.
+
+* This we called univariate analysis & we covered graphs with only 1 variable & below is the process of relationsip between 2 variables
+==================================================================================================================================================
+<E> Cross table & Scatter plot - we have 2 variables categorical variable & numerical variable
+
+* categorical variable are represent in cross table & some statician called as continuous table
+
+* imagine your manager for the investment and you have a stocks, bonds, realestate --> investor A, B & C 
+
+* if you calculate total for row & column wise both you get the same result, it will show us total investment of stock,bonds,real estate as per 
+  vertical axis horizontal you can get the subtotal of holding of each instor 
+
+* now we are visualize the table using cross table using slide-by-slide bar chart & side-by-side bar chart is variation of bar chart
+
+* all 3 are in 3 different colour. we can easily figure out the investor with how much of investing on 3 different sectors
+
+* All graphs are very easy to create and read, once you have idenitified the type of data.
+ 
+* scatte plot represent only 2 numeric data - as per the table we have sat score of reading & writng score of 100 individual
+
+* sat score ranging from 200 -800 right , y -axis --- writing, x-axis --- reading score & each data points gives us students performance
+
+* scatter plot represents the lot of observation & the key insight from this graph is low reading score obtain the low writing score
+   high reading score obtains the high writing scores. 
+
+* insigt is if you look at the 500 points & lot of people get that score. 
+
+* last insight is there few pair of students extremly well, very high writing and reading
+
+* if you check the one point and this observation is called outlier 
+
+===================================================================================================================================================
+
+we understand the Basic of descriptive statistics - 
+
+-- population 
+-- sampletypes of variables
+-- measurment levels
+-- graphs & tables
+ 
+
+
+
+
+
+
+
+
+
+
+
+
